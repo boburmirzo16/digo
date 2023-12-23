@@ -1,7 +1,6 @@
 @media only screen and (max-width:768px) {
     #header{
         background-color: dodgerblue;
-        height: 130vh;
     }
     .navbar_nav a{
         display: none;
@@ -9,13 +8,10 @@
     .navbar_nav i{
         display: inline;
         color: rgb(0, 0, 0);
-        margin-left: 12rem;
+       position: relative;
 }
 .nav__logo{
   width: 100%;    
-}
-.nav__logo img{
-    width: 180px;
 }
 .banner__contact{
     grid-template-columns: 100%;
@@ -25,11 +21,7 @@
     margin-top: -7rem;
     line-height: 34px;
 }
-.banner .container{
-max-width: 97%;
-}
 .banner p{
-    margin-right: -80px;
     font-size: 0.8rem;
     line-height: 22px;
     margin-top: 3rem;
@@ -44,11 +36,8 @@ font-size: 2rem;
     font-size: 0.8rem;
 
 }
-.incriys .container{
-    max-width: 100%;
-}
 .incriys img{
-    width: 111%;
+    width: 100%;
     margin: 0 auto;
 }
 .incriys p{
@@ -80,25 +69,12 @@ font-size: 2rem;
     background-color: dodgerblue;
     height: 100%;
 }
-.text__contact {
-    padding-top: 5rem;
-    grid-template-columns: 100%;
-    width: 90%;
-    margin: 0 auto;
-    padding: 10px 10px 100px 10px ;
-}
-.text__contact p{
-    margin-right: -1rem;
-}
 .futer .title{
     margin: 0 auto;
     width: 96%;
 }
 .futer .container{
     max-width: 96%;
-}
-.futer__contact{
-    width: 100%;
 }
 .futer button{
     width: 35%;

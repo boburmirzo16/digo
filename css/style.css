@@ -95,7 +95,6 @@ transition: all 0.4s linear;
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    
 }
 .incriys .title h2{
     font-size: 1.2rem;
@@ -142,7 +141,6 @@ transition: all 0.4s linear;
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    
 }
 .buy .title h2{
     font-size:2rem;
@@ -175,7 +173,6 @@ transition: all 0.4s linear;
     color: white;
     border: 0;
 }
-
 .sell_contact button:hover{
     background-color: rgb(16, 163, 255);
     transition: all 0.5s linear;
@@ -237,7 +234,6 @@ margin-bottom: 2rem;
     border-radius: 30px     ;
     background-color: dodgerblue;
     transition: all 0.5s linear;
-
 }
 .text{
     width: 70%;
@@ -362,17 +358,16 @@ margin-bottom: 2rem;
 }
 .img{
     overflow: hidden;
-    margin-top: -10rem;
-
+    margin-top: -15rem;
 }
 .img img{
-    margin-left: 80%;
+    position: absolute;
     width: 20%;
 }
 .copyright{
     background-color: rgb(34, 143, 252);
     height: 10vh;
-    color: white;
+    color: #fff;
     font-size: 1.1rem;
     display: flex;
     align-items: center;
