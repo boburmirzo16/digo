@@ -347,17 +347,16 @@ margin-bottom: 2rem;
 .futer h3{
     font-size: 1.8rem;
 }
-.futer i{
+.futer .brans i{
     border-radius: 100%;
-    color: dodgerblue;
-    box-shadow: 0 0 20px rgb(227, 227, 227);
+    color: darkred;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
     padding: 13px 15px ;
     margin-top: 1rem;
     margin-left: 1rem;
     transition: all 0.5s linear;
 }
 .futer i:hover{
-    transition: all 0.5s linear;
     background-color: black;
     box-shadow: 0;
 }
@@ -370,13 +369,12 @@ margin-bottom: 2rem;
     margin-left: 80%;
     width: 20%;
 }
-.futer .copyright{
+.copyright{
     background-color: rgb(34, 143, 252);
-    height: 7vh;
+    height: 10vh;
     color: white;
     font-size: 1.1rem;
     display: flex;
-    margin-top: -4rem;
     align-items: center;
     justify-content: center;
 }

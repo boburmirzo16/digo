@@ -1,0 +1,121 @@
+@media only screen and (max-width:768px) {
+    #header{
+        background-color: dodgerblue;
+        height: 130vh;
+    }
+    .navbar_nav a{
+        display: none;
+    }
+    .navbar_nav i{
+        display: inline;
+        color: rgb(0, 0, 0);
+        margin-left: 12rem;
+}
+.nav__logo{
+  width: 100%;    
+}
+.nav__logo img{
+    width: 180px;
+}
+.banner__contact{
+    grid-template-columns: 100%;
+}
+.banner h1{
+    font-size: 1.6rem;
+    margin-top: -7rem;
+    line-height: 34px;
+}
+.banner .container{
+max-width: 97%;
+}
+.banner p{
+    margin-right: -80px;
+    font-size: 0.8rem;
+    line-height: 22px;
+    margin-top: 3rem;
+}
+.incriys .title h3{
+    font-size: 1.4rem;
+}
+.incriys .title h2{
+font-size: 2rem;
+}
+.incriys p{
+    font-size: 0.8rem;
+
+}
+.incriys .container{
+    max-width: 100%;
+}
+.incriys img{
+    width: 111%;
+    margin: 0 auto;
+}
+.incriys p{
+    font-size: 0.9rem;
+}
+.img{
+    display: none;
+}
+.biznes .title h2{
+    font-size: 2rem;
+}
+.biznes .title p{
+    font-size: 0.9rem;
+    opacity: 1;
+}
+.biznes .container{
+    max-width: 100%;
+}
+.biznes img{
+    width: 100%;
+}
+.biznes__contact p{
+   margin-left: -2rem;
+   margin-right: -2rem;
+   line-height: 20px;
+}
+.text{
+    width: 95%;
+    background-color: dodgerblue;
+    height: 100%;
+}
+.text__contact {
+    padding-top: 5rem;
+    grid-template-columns: 100%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 10px 100px 10px ;
+}
+.text__contact p{
+    margin-right: -1rem;
+}
+.futer .title{
+    margin: 0 auto;
+    width: 96%;
+}
+.futer .container{
+    max-width: 96%;
+}
+.futer__contact{
+    width: 100%;
+}
+.futer button{
+    width: 35%;
+}
+.futer .imeg_{
+    display: none;
+}
+.futer .copyright{
+    margin-top: 3rem ;
+}
+.futer h2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.7rem;
+}
+.midil img{
+    width: 100px;
+    height: 21vh;
+}
+}
